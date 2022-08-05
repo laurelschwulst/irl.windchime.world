@@ -21,7 +21,7 @@
     redirect:window.location.replace("https://windchime.world/mobile.html");
   }
   </script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?333">
     <style>
       html, body {
         margin: 0;
@@ -61,12 +61,17 @@
         max-height: 100%;
         cursor: zoom-out;
       }
-      .text {
+      .text,
+      nav.start {
         background: #d1d0cf;
         padding: 2.5em;
         border: 1px solid #929192;
         border-top: 1px solid #F6F5F6;
         border-left: 1px solid #F6F5F6;
+      }
+      nav.start {
+        padding: 1em;
+        padding-bottom: 5em;
       }
       section.beginning {
         background:url('irl-festival/vale05.jpg');
@@ -142,17 +147,108 @@
         align-items: center;
         justify-content: center;
       }
+      section.beginning-two {
+        background:url('irl-festival/vale01.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+      section.beginning-zero {
+        margin-top: -25%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+      section.beginning-three {
+        background:url('irl-festival/windchime-25.jpg');
+        background-size: cover;
+        background-position: center 70%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+      section.beginning-three video {
+        box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
+      }
+      a.button {
+        background: rgba(255,255,255,0.55);
+        padding: 3px 9px;
+        border-radius: 12px;
+        margin-top: 1em;
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+      }
+      a.button:hover {
+        background: rgba(255,255,255,1);
+        box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
+      }
       iframe {
         display: block !important;
+      }
+      a.menu {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        text-decoration: none;
+        color: black;
+      }
+      nav.menu {
+        display: none;
+        background-color: #d1d0cf;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      nav.menu a {
+        text-decoration: none;
+        color: black;
       }
       </style>
     </head>
 
   <body>
+    <!-- <nav class="start">
+      wind chime festival NYC<br>
+      saturday, may 21, 2022<br>
+      vale of cashmere<br>
+      11am – 4pm<br>
+    </nav> -->
+    <nav class="start">
+      wind chime festival NYC<br><br>
+      saturday, may 21, 2022<br><br>
+      vale of cashmere<br><br>
+      11am – 4pm<br>
+      <a href="menu.html" class="menu">( menu )</a>
+    </nav>
     <section class="beginning">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/GO422Q3kscU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <!-- <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//GO422Q3kscU' frameborder='0' allowfullscreen></iframe></div> -->
+        <iframe style="box-shadow: 0px 0px 12px rgba(0,0,0,0.25);" width="560" height="315" src="https://www.youtube.com/embed/GO422Q3kscU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- <div style="max-width: 500px; margin: 1em;">
+        <img src="poster02.png" style="background: white; box-shadow: 0px 0px 12px rgba(0,0,0,0.25);">
+      </div>
+      <div style="max-width: 700px; margin: 1em;">
+        <img src="map-vale.png" style="background: white; box-shadow: 0px 0px 12px rgba(0,0,0,0.25);">
+        <br>
+      </div> -->
     </section>
+    <!-- <section class="beginning-zero">
+      <div style="max-width: 500px; margin: 1em;">
+        <img src="poster02.png" style="background: white; box-shadow: 0px 0px 12px rgba(0,0,0,0.25);">
+      </div>
+      <div style="max-width: 700px; margin: 1em;">
+        <img src="map-vale.png" style="background: white; box-shadow: 0px 0px 12px rgba(0,0,0,0.25);">
+        <br>
+      </div>
+    </section> -->
     <section class="images">
       <div class="image">
         <img src="irl-festival/windchime-1.jpg" class="thumb">
@@ -336,9 +432,11 @@
         The wind chimes reveal themselves slowly. Beacons tucked into corners, on the next little ridge, up the path, hidden right above your head. You must keep your eyes peeled. Ask questions. Watch the flow of others on their visits and discoveries. The wind chimes and their creators surround you by the very fact of geology in the Vale of Cashmere. The vale is a dip in the earth, a hole created by a glacier melting 17,000 years ago and tearing rock and soil into an arena of blue and green. You walk in the center, around the pond, ringed by trees, braving short distances of sun. Each branch is a potential host. Some chimes scream for you from across an expanse. Large or loud. Others are experts in camouflage, as if they were species native to the Vale, perfectly blended. The chimes come in all forms and materials, hard and soft, objects recycled and refabricated to hang and collide with each other at the slightest disturbance. Without the wind blowing, they invite you to touch. You must graze, lightly prod, slightly destabilize them to release their sounds. Hear their rumbles and whispers, feel their different textures. The trees have alarms. The Vale is an instrument now.
       </p>
     </section>
-    <video width="100%" height="100%" controls>
-     <source src="irl-festival/shells.mp4" type="video/mp4">
-    </video>
+    <section class="beginning-three">
+      <video width="auto" height="90%" controls>
+       <source src="irl-festival/shells.mp4" type="video/mp4">
+      </video>
+    </section>
     <section class="images pola">
       <div class="image">
         <img src="irl-festival/pola01.jpg" class="thumb">
@@ -445,17 +543,30 @@
       <div class="image">
       </div>
     </section>
+    <section class="text">
+      <p>
+        Special thanks to: Max Neely-Cohen for the written reflection, Cindy Hwang for the video recording, Kenny Wollesen & Julia Elsas for the letter.
+      </p>
+    </section>
+    <section class="beginning">
+      <div style="max-width: 500px; margin: 1em;">
+        <img src="poster02.png" style="background: white; box-shadow: 0px 0px 12px rgba(0,0,0,0.25);">
+      </div>
+      <div style="max-width: 700px; margin: 1em; text-align: center;">
+        <a href="map-vale-for-wind-chime-festival.pdf" target="_blank">
+          <img src="map-vale.png" style="background: white; box-shadow: 0px 0px 12px rgba(0,0,0,0.25);">
+        </a>
+        <br>
+        <!-- <a href="map-vale-for-wind-chime-festival.pdf" target="_blank" class="button">pdf map of the vale of cashmere</a> -->
+      </div>
+    </section>
     <!-- <section class="text">
       <p style="text-align: center;">
         Thanks to all particicipants for spending such a lovely day together.
       </p>
     </section> -->
     <section class="text">
-      <p class="gray">
-        Special thanks to: Max Neely-Cohen for the written reflection, Cindy Hwang for the video recording, Kenny Wollesen & Julia Elsas for the letter.
-      </p>
-    </section>
-    <section class="text">
+      <br>
       the vale of cashmere became much quieter around 4 o’clock as the festival was winding down and a lot of folks had split with their wind chimes
       <br>
       <br>
@@ -503,126 +614,164 @@
       <br>
       <br>
       And
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       every leaf
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       on every tree
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       in the vale of cashmere
-
-
+      <br>
+      <br>
+      <br>
       Was fluttering
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       It
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       Was
-
-
+      <br>
+      <br>
+      <br>
       The
-
-
+      <br>
+      <br>
+      <br>
       best
-
-
+      <br>
+      <br>
+      <br>
       Music
-
-
+      <br>
+      <br>
+      <br>
       I ever heard
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       it was bonkers !
-
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       The greatest musicians in the world can practice a hundred years and never even come close to the sheer beauty the trees were making
-
-
+      <br>
+      <br>
+      <br>
       It dawned on me that the wind chime festival was all around us !!
-
-
-
+      <br>
+      <br>
+      <br>
       It’s always there !
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       It always has been there !
-
-
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       All the time !
-
-
+      <br>
+      <br>
+      <br>
       Its everywhere !
-
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       We all are wind chimes!!
-
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       All one has to do is pay attention and get the fuck out of the way !!!!
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       It was incredible
-
-
+      <br>
+      <br>
+      <br>
       Some kind of satori
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       I once read that a zen master was asked what’s the difference between “before enlighenment” and “after enlightenment “
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       He said before enlightenment, mountains are mountains & oceans are oceans
-
-
+      <br>
+      <br>
+      <br>
       After enlightenment, mountains are mountains & oceans are oceans
-
-
+      <br>
+      <br>
+      <br>
       (But your feet are a little bit off the ground)
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       Thats exactly how I feel ever since the wind chime festival !
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
       All I can think about is wind chimes
-
-
+      <br>
+      <br>
+      <br>
       I have so many ideas!
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       Somehow even the music ive been playing since Saturday has been extra sweet too
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       The wind chime festival you cats put together was soooooooooooo inspiring
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       Thank you
-
-
-
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       Truly
     </section>
     <!-- <section class="welcome">
@@ -645,6 +794,9 @@
       $('.image').click(function(){
         $(this).toggleClass('large');
       });
+      // $('a.menu').click(function(){
+      //   $('nav.menu').toggle();
+      // });
     });
     </script>
   </body>

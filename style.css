@@ -183,9 +183,15 @@ body.content a.return {
   border-bottom: none;
 }
 
+main.mobile-style {
+  max-width: 475px;
+}
+
+body.content a.plain,
 a.plain {
   text-decoration: none;
   color: black;
+  border-bottom: 0;
 }
 
 a.left {
@@ -276,6 +282,12 @@ table.artist img {
 a.return {
   text-decoration: none;
   color: black;
+}
+
+a.return {
+  position: absolute;
+  top: 1em;
+  right: 1em;
 }
 
 .chime-info {
