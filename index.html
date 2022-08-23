@@ -17,9 +17,9 @@
   <meta name="twitter:description" content="may 21, 2022 in the vale of cashmere, NYC">
   <meta name="twitter:image" content="http://irl.windchime.world/irl-festival/vale05.jpg">
   <script>
-  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    alert('note this site might not be mobile compatible yet -- still working on it! :)');
-  }
+  // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  //   alert('note this site might not be mobile compatible yet -- still working on it! :)');
+  // }
   </script>
   <link rel="stylesheet" href="style.css?333">
     <style>
@@ -788,12 +788,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
     $(function() {
-      $('.image').click(function(){
-        $(this).toggleClass('large');
-      });
-      // $('a.menu').click(function(){
-      //   $('nav.menu').toggle();
-      // });
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      }
+      else {
+        $('.image').click(function(){
+          $(this).toggleClass('large');
+        });
+      }
     });
     </script>
   </body>

@@ -348,3 +348,26 @@ wc-marquee {
 #mobile {
   font-size: 10px;
 }
+
+@media (max-width: 800px) {
+
+  section.beginning {
+    padding: 1em;
+    height: auto !important;
+  }
+
+  section.images {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .image {
+    max-height: 100% !important;
+    padding: 1em !important;
+    pointer-events: none !important;
+  }
+
+  .text, nav.start {
+    padding: 1em !important;
+  }
+
+}
