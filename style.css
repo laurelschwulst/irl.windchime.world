@@ -614,4 +614,12 @@ iframe {
     padding: 1em;
   }
 
+  section.images.pola {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
+  .image {
+    padding: 1em;
+  }
+
 }
