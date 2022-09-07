@@ -11,23 +11,21 @@
   <meta name="twitter:description" content="may 21 – july 31, 2022">
   <meta name="twitter:image" content="https://virtual.windchime.world/www-chime-festival.png">
   <script>
-  console.log("hello?")
-     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      document.addEventListener("DOMContentLoaded", ()=>{
-      document.getElementById("target").outerHTML = `
-      <frameset rows="100%" id="target">
-      <frame src="center.html" name="center" scrolling="AUTO">
-      </frameset>
-      `});
-     }
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    redirect:window.location.replace("https://windchime.world/mobile.html");
+  }
   </script>
 </head>
 
 
-	<frameset cols="25%, 50%, 25%" id="target">
-		<frame src="left.html" name="left" scrolling="AUTO">
-		<frame src="center.html" name="center" scrolling="AUTO">
-    <frame src="right.html" name="right.html" scrolling="AUTO">
+	<frameset rows="*, *, *">
+
+		<frame src="random.html" name="random" scrolling="AUTO">
+
+		<frame src="random.html" name="random" scrolling="AUTO">
+
+    <frame src="random.html" name="random" scrolling="AUTO">
+
 	</frameset>
 
 <noframes></noframes>
