@@ -611,14 +611,15 @@ iframe {
   /* hiiiii */
 
   section {
-    padding: 1em;
+    padding: 0;
   }
 
   section.images.pola {
     grid-template-columns: 1fr 1fr 1fr !important;
   }
 
-  .image {
+  .image,
+  .everything-center {
     padding: 1em;
   }
 
